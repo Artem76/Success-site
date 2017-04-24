@@ -1,0 +1,22 @@
+Index: Success-sit V2.1.iml
+===================================================================
+--- Success-sit V2.1.iml	(date 1493041497000)
++++ Success-site V2.1.iml	(revision )
+@@ -1,0 +1,0 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1493041497000)
++++ .idea/modules.xml	(revision )
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/Success-sit V2.1.iml" filepath="$PROJECT_DIR$/Success-sit V2.1.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Success-site V2.1.iml" filepath="$PROJECT_DIR$/Success-site V2.1.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
