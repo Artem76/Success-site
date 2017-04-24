@@ -1,0 +1,240 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;                               /* обнуляем отступы и убираем бордюры */
+    vertical-align: baseline;          /* приводим все к одной базовой линии */
+    background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+    font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline:none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, td img {
+    vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+}
+input, select, button, textarea {
+    margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+    font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+    outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+    padding: 0; 				/* убираем внутренние отступы для текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+    vertical-align: bottom;
+}
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+    min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+body {
+    color: #000;
+    text-align: left;
+    font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+    min-height:100%;
+}
+a, a:visited { /* порядок правил для ссылок имеет значение */
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration:none;
+}
+a:focus, a:active {
+    color: #000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight:normal;
+}
+img{
+
+    max-width:100%;
+}
+.clr{
+    clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки ---------*/
+
+
+header{
+}
+
+.logo{
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.logo span{
+    border: 7px solid #00a78e;
+    padding: 0px 14px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo a{
+    font-weight: bold;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navigation{
+}
+
+.navigation a{
+    float: left;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    background-color: #00a78e;
+    display: table;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 10px 20px 0;
+    color: black;
+    -webkit-transition:all 0.2s linear; /* для старого хрома */
+    -moz-transition:all 0.2s linear;/* для старой мозилы  */
+    -o-transition:all 0.2s linear;/* для старой оперы */
+    transition:all 0.2s linear;/* для всех */
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+.navigation a:focus{
+    box-shadow: none;
+}
+
+.boxes{
+    width: 100%;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.box{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+pre{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    padding: 5px;
+    font-size: 16px;
+}
+
+h4>a{
+    color: #00a78e;
+    text-decoration: underline;
+}
+
+.button{
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    background-color: orangered;
+    display: table;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+    color: black;
+    -webkit-transition:all 0.2s linear; /* для старого хрома */
+    -moz-transition:all 0.2s linear;/* для старой мозилы  */
+    -o-transition:all 0.2s linear;/* для старой оперы */
+    transition:all 0.2s linear;/* для всех */
+}
+
+.button:hover{
+    color: white;
+}
+
+.button:focus{
+    box-shadow: none;
+}
+
+.text{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 14px;
+    right: 3%;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/movetop.png") no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}

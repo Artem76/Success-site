@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/Application.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/config/AppConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/config/SecurityConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/controller/AdminController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/controller/LoginController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/controller/MainController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/entity/CustomUser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/entity/Mess.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/entity/Visit.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/entity/enums/UserRole.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/repository/MessRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/repository/UserRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/repository/VisitRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/coder/CoderService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/coder/CoderServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/email/EmailService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/email/EmailServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/mess/MessService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/mess/MessServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/user/UserDetailsServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/user/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/user/UserServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/visit/VisitService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/service/visit/VisitServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/application.properties" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/config.properties" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style-login.css" charset="windows-1251" />
+  </component>
+</project>

@@ -1,0 +1,171 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;                               /* обнул€ем отступы и убираем бордюры */
+    vertical-align: baseline;          /* приводим все к одной базовой линии */
+    background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+    font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline:none;
+}
+table {						/* устран€ем отступы между €чейками таблицы */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, td img {
+    vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+}
+input, select, button, textarea {
+    margin: 0; 				/* убираем отступы по умолчанию дл€ элементов форм (в частности дл€ checkbox и radio) */
+    font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+    outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+    padding: 0; 				/* убираем внутренние отступы дл€ текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+    vertical-align: bottom;
+}
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+    min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+body {
+    color: #000;
+    text-align: left;
+    font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+    min-height:100%;
+}
+a, a:visited { /* пор€док правил дл€ ссылок имеет значение */
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration:none;
+}
+a:focus, a:active {
+    color: #000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight:normal;
+}
+img{
+
+    max-width:100%;
+}
+.clr{
+    clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки ---------*/
+
+
+header{
+}
+
+.logo{
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px auto;
+    display: table;
+}
+
+.logo span{
+    border: 7px solid #00a78e;
+    padding: 0px 14px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo a{
+    font-weight: bold;
+}
+
+.login-form{
+    display: table;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.login-form h2{
+    font-size: 30px;
+    display: table;
+    margin: 10px auto;
+}
+
+.err{
+    color: red;
+}
+
+.not_err{
+    color: green;
+}
+
+.login-form input{
+    width: 100%;
+    display: table;
+    border: 1px solid #888888;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px auto;
+    color: black;
+}
+
+.login-form button{
+    width: 100px;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    background-color: #00a78e;
+    display: table;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px auto;
+    color: black;
+    -webkit-transition:all 0.2s linear; /* дл€ старого хрома */
+    -moz-transition:all 0.2s linear;/* дл€ старой мозилы  */
+    -o-transition:all 0.2s linear;/* дл€ старой оперы */
+    transition:all 0.2s linear;/* дл€ всех */
+}
+
+.login-form button:hover{
+    color: white;
+}
+
+.login-form button:focus{
+    box-shadow: none;
+}
