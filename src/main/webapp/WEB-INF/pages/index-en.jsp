@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li>
                             <ul class="address-text">
                                 <li><b>WEBSITE </b></li>
-                                <li><a href="https://success-site.inf.ua">success-site.inf.ua</a></li>
+                                <li><a href="http://success-site.inf.ua">success-site.inf.ua</a></li>
                             </ul>
                         </li>
 

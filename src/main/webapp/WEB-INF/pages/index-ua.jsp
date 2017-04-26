@@ -67,7 +67,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="menu"><img src="/images/menu.png" alt=" "/></span>
                         <nav class="link-effect-3" id="link-effect-3">
                             <ul class="nav1 nav nav-wil">
-                                <li class="active read hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal1"><a data-hover="Замовити" href="#">Замовити</a></li>
+                                <li class="active read hvr-shutter-in-horizontal" data-toggle="modal"
+                                    data-target="#myModal1"><a data-hover="Замовити" href="#">Замовити</a></li>
                                 <li><a class="scroll" data-hover="Головна" href="#about">Головна</a></li>
                                 <li><a class="scroll" data-hover="Послуги" href="#services">Послуги</a></li>
                                 <li><a class="scroll" data-hover="Блоги" href="#blogs">Блоги</a></li>
@@ -114,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </li>
                         <li>
                             <ul class="address-text">
-                                <li><b>Допомога </b></li>
+                                <li><b>ДОПОМОГА </b></li>
                                 <li>Надаємо повну підтримку.</li>
                             </ul>
                         </li>
@@ -127,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li>
                             <ul class="address-text">
                                 <li><b>WEBSITE </b></li>
-                                <li><a href="https://success-site.inf.ua">success-site.inf.ua</a></li>
+                                <li><a href="http://success-site.inf.ua">success-site.inf.ua</a></li>
                             </ul>
                         </li>
 
@@ -151,7 +152,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h2>Шлях до успіху!!!<span></span></h2>
                     <p>Ми створимо для вас сайт, що забезпечить вашому бізнесу інтернет-аудиторію.</p>
                     <ul>
-                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a></li>
+                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a>
+                        </li>
                         <li><a class="a-btn-h scroll" href="#contact">Запитати</a></li>
                     </ul>
                 </div>
@@ -159,9 +161,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="item">
                 <div class="about-left-grid">
                     <h2>Найкращий сайт<span></span></h2>
-                    <p>Виконаємо будь-які бажання замовника.</p>
+                    <p>Виконаємо будь-які побажання замовника.</p>
                     <ul>
-                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a></li>
+                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a>
+                        </li>
                         <li><a class="a-btn-h scroll" href="#contact">Запитати</a></li>
                     </ul>
                 </div>
@@ -169,9 +172,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="item">
                 <div class="about-left-grid">
                     <h2>Великі надходження<span></span></h2>
-                    <p>Ваш сайт забезпечить залучення великої кількості клієнтів звідусіль.</p>
+                    <p>Ваш сайт забезпечить залучення великої кількості клієнтів.</p>
                     <ul>
-                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a></li>
+                        <li><a class="a-btn-a scroll" href="#" data-toggle="modal" data-target="#myModal1">Замовити</a>
+                        </li>
                         <li><a class="a-btn-h scroll" href="#contact">Запитати</a></li>
                     </ul>
                 </div>
@@ -229,9 +233,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="col-xs-8 wthree_about_right_grid_right">
                     <h4>Візитка</h4>
-                    <p>Для того щоб надати особисту інформацію в інтернеті, вам знадобиться сайт-візитка.<br><br>
-                        Це маленький сайт, що складається з кількох сторінок, призначених для надання інформації про
-                        одну людину.</p>
+                    <p>Щоб надати особисту інформацію в інтернеті, вам знадобиться сайт-візитка.<br><br>
+                        Це маленький сайт, що складається з кількох сторінок, які містять в собі мінімально необхідну
+                        інформацію для представництва людини в інтернеті.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -244,10 +248,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-xs-8 wthree_about_right_grid_right">
                     <h4>Блог</h4>
                     <p>Кожному блогеру свій сайт.<br><br>
-                        Блог — це сайт, призначення якого публікація новин за якоюсь темою.<br><br>
-                        Такий сайт повинен складатись з двох частин: користувача і блогера.<br><br>
-                        Частина користувача дозволяє відвідувачу насолодитися повнотою контенту наведеного у вашому
-                        блозі, а частина блогера, призначена для додавання, редагування чи видалення матеріалів.</p>
+                        Блог — це сайт, призначення якого публікація новин певної тематики.<br><br>
+                        Такий сайт повинен складатись з двох частин: одна – для користувача, інша – безпосередньо для
+                        блогера.<br><br>
+                        В своїй частині користувач отримує інформацію з контенту наведеного у вашому блозі. Блогер в
+                        своїй частині має змогу додавати, редагувати чи видаляти матеріали.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -260,8 +265,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-xs-8 wthree_about_right_grid_right">
                     <h4>Інтернет-магазин</h4>
                     <p>Яка може бути торгівля без інтернет-магазину.<br><br>
-                        Інтернет-магазин — це доволі великий сайт, що складається з великої кількості сторінок і складної серверної частини.<br><br>
-                        Наш виключно індивідуальний підхід приверне величезну кількість клієнтів для вашого бізнесу.</p>
+                        Інтернет-магазин — це доволі великий сайт, що складається з великої кількості сторінок і
+                        складної серверної частини.<br><br>
+                        Привернути величезну кількість клієнтів для вашого бізнесу допоможе індивідуальний підхід до
+                        подання товару та послуг.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -274,8 +281,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-xs-8 wthree_about_right_grid_right">
                     <h4>Корпоративний</h4>
                     <p>Сайт, що має надавати в інтернеті інформацію про підприємства чи корпорації.<br><br>
-                        Корпоративний сайт може мати в собі багато розділів, що призначені для: роботи з клієнтом, залучення
-                        персоналу, надання інформації про послуги, контактної інформації…</p>
+                        Корпоративний сайт може мати в собі багато розділів: робота з клієнтом, залучення персоналу,
+                        надання інформації про товари та послуги, контактна інформація…</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -305,9 +312,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3><a href="#" data-toggle="modal" data-target="#myModal1">Оригінальність</a></h3>
                 <p>Ми пропонуємо створити для вас сайт не шаблонний, а унікальний. <br>
                     Ваш сайт буде вигідно виокремлюватись з рутини, що заполонила інтернет.<br>
-                    В якості дизайнера сайту з вами буде працювати професійний художник, який зможе відобразити
+                    В якості дизайнера сайту з вами буде працювати професійний художник, який підкреслить
                     унікальність та індивідуальність ваших ідей.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ САЙТ</a>
+                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ
+                    САЙТ</a>
 
             </div>
 
@@ -317,11 +325,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             <div class="col-md-6 news-text two">
                 <h3><a href="#" data-toggle="modal" data-target="#myModal1">Адаптивність</a></h3>
-                <p>Сайт, що ми напишемо, буде якісно виглядати на моніторі з будь-якою роздільною здатністю, на планшетах,
-                    смартфонах чи навіть мобільних телефонах.<br>
+                <p>Сайт, що ми напишемо, буде якісно відображено на моніторі з будь-якою роздільною здатністю, на
+                    планшетах, смартфонах чи мобільних телефонах.<br>
                     В залежності від розмірів екрану вашого пристрою ваш сайт буде автоматично змінювати свою компоновку
                     для найкращого подання інформації.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ САЙТ</a>
+                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ
+                    САЙТ</a>
 
             </div>
             <div class="col-md-6 news-img two">
@@ -339,9 +348,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="col-md-6 news-text">
                 <h3><a href="#" data-toggle="modal" data-target="#myModal1">Кроссбраузерність</a></h3>
-                <p>Різні браузери по своєму відображують інтернет сторінки, але ми примусимо всі відомі браузери працювати
-                    однаково. <br> Ваш сайт завжди буде працювати коректно.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ САЙТ</a>
+                <p>Різні браузери по-своєму відображують інтернет-сторінки, але ми змусимо всі відомі браузери працювати
+                    ідентично.<br> Ваш сайт завжди буде працювати коректно.</p>
+                <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">ЗАМОВИТИ
+                    САЙТ</a>
 
             </div>
 
@@ -374,8 +384,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       onblur="if (this.value == '') {this.value = 'Короткий опис...';}"
                                       required="">Короткий опис...</textarea>
                             <input type="hidden" name="lang" value="ua">
-                            <p>* Після надсилання замовлення к вам на електронну пошту, на протязі 10-ти хвилин, надійде лист.
-                                Якщо лист не надійшов, перевірте в СПАМІ.</p>
+                            <p>* Якщо не отримали автоматичний лист-підтвердження перевірте СПАМ.</p>
                             <input type="submit" value="Надіслати замовлення">
                         </form>
                     </div>

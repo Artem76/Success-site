@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li>
                             <ul class="address-text">
                                 <li><b>WEBSITE </b></li>
-                                <li><a href="https://success-site.inf.ua">success-site.inf.ua</a></li>
+                                <li><a href="http://success-site.inf.ua">success-site.inf.ua</a></li>
                             </ul>
                         </li>
 
@@ -374,8 +374,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       onblur="if (this.value == '') {this.value = 'Краткое описание...';}"
                                       required="">Краткое описание...</textarea>
                             <input type="hidden" name="lang" value="ru">
-                            <p>* После отправки заказа к вам на электронную почту, в течении 10-ти минут, придет письмо.
-                                Если письмо не придет, то проверьте в СПАМЕ.</p>
+                            <p>* Если не получили автоматическое письмо-подтверждение, проверьте СПАМ.</p>
                             <input type="submit" value="Отправить заказ">
                         </form>
                     </div>
