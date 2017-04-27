@@ -52,15 +52,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a class="scroll" data-hover="Головна" href="#messages">Повідомлення</a></li>
-                            <li><a class="scroll" data-hover="Послуги" href="#email">Електронна адреса</a></li>
-                            <li><a class="scroll" data-hover="Блоги" href="#password">Пароль</a></li>
+                            <li><a class="scroll" href="#messages">Повідомлення</a></li>
+                            <li><a class="scroll" href="#email">Електронна адреса</a></li>
+                            <li><a class="scroll" href="#password">Пароль</a></li>
                             <li><a id="logout" href="/logout">Вихід</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="clearfix"></div>
                 <!-- /top-hedader -->
+            </div>
+        </div>
+
+        <div id="visits" class="boxes">
+            <h2>Відвідання сайту.</h2>
+            <div class="box">
+                <h4>Кількість відвідань за отанню добу: <b>${visits_day}</b></h4>
+                <h4>Кількість відвідань за отанній тиждень: <b>${visits_week}</b></h4>
             </div>
         </div>
 
@@ -120,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         $().UItoTop({easingType: 'easeOutQuart'});
 
     });
-    
+
 
 </script>
 <!--end-smooth-scrolling-->

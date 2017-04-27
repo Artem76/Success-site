@@ -38,7 +38,7 @@ public class VisitServiceImpl implements VisitService {
     @Transactional
     public void addVisit(Visit visit) {
         List<Visit> visits = visitRepository.findByDateAndIPMore(new Date(System.currentTimeMillis() - 600000L), visit.getIpClient());
-        if (visits.size() != 0) {
+        if (visits.size() == 0) {
             visitRepository.save(visit);
         }
         return;

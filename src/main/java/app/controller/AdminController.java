@@ -5,6 +5,7 @@ import app.service.coder.CoderService;
 import app.service.email.EmailService;
 import app.service.mess.MessService;
 import app.service.user.UserService;
+import app.service.visit.VisitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -28,10 +29,16 @@ public class AdminController {
     @Autowired
     EmailService emailService;
 
+    @Autowired
+    VisitService visitService;
+
     @RequestMapping("/admin")
     public String adminShop(Model model) {
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         String login = user.getUsername();
+        visitService.clearVisitByDateLess();
+        model.addAttribute("visits_day", visitService.getVisitsForTheDay());
+        model.addAttribute("visits_week", visitService.getVisitsForTheWeek());
         model.addAttribute("messages", messService.getMessageAllSort());
         model.addAttribute("email", userService.getUserByLogin(login).getEmail());
         return "admin";
