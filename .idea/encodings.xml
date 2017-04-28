@@ -28,6 +28,10 @@
     <file url="file://$PROJECT_DIR$/src/main/java/app/service/visit/VisitServiceImpl.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/application.properties" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/main/resources/config.properties" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style-login.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/owl.carousel.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style-admin.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style-login.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" charset="UTF-8" />
   </component>
 </project>

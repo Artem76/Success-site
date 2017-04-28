@@ -48,10 +48,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Ми отримали від вас замовлення.<br>Наш представник зв'яжеться з вами за найближчою нагодою.<br><br>Нижче наведено зміст вашого замовлення:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше ім'я: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша електрона скринька: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефону: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст повідомлення:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше ім'я: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша електрона скринька: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефону: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст повідомлення:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> З повагою, колектив розробників.<br>Наші контакти:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -67,10 +67,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Мы получили от вас заказ.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего заказа:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша электронная почта: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефона: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -86,10 +86,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Мы получили от вас заказ.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего заказа:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша электронная почта: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефона: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -114,10 +114,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Ми отримали від вас повідомлення.<br>Наш представник зв'яжеться з вами за найближчою нагодою.<br><br>Нижче наведено зміст вашого повідомлення:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше ім'я: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша електрона скринька: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефону: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст повідомлення:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше ім'я: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша електрона скринька: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефону: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст повідомлення:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> З повагою, колектив розробників.<br>Наші контакти:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -133,10 +133,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Мы получили от вас сообщение.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего сообщения:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша электронная почта: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефона: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -152,10 +152,10 @@ public class EmailServiceImpl implements EmailService {
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                     "<p>Мы получили от вас сообщение.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего сообщения:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                    "<p>Ваша электронная почта: " + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</p>" +
-                    "<p>Ваш номер телефона: " + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre>" +
+                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
+                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
+                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
+                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
                     "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
@@ -176,11 +176,11 @@ public class EmailServiceImpl implements EmailService {
                 "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                 "<p>На ваш сайт надійшло повідомлення.<br><br>Нижче наведено зміст повідомлення:</p>" +
                 "<div style='border: 1px solid #888; padding: 5px; overflow:hidden'>" +
-                "<p>Ім'я: " + coderService.encoderUtf8ToWindows1251(message.getNameClient()) + "</p>" +
-                "<p>Електрона скринька: <a href='mailto:" + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "'>" + coderService.encoderUtf8ToWindows1251(message.getEmailClient()) + "</a></p>" +
-                "<p>Номер телефону: <a href='tel:" + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "'>" + coderService.encoderUtf8ToWindows1251(message.getPhoneClient()) + "</a></p>" +
+                "<p>Ім'я: " + message.getNameClient() + "</p>" +
+                "<p>Електрона скринька: <a href='mailto:" + message.getEmailClient() + "'>" + message.getEmailClient() + "</a></p>" +
+                "<p>Номер телефону: <a href='tel:" + message.getPhoneClient() + "'>" + message.getPhoneClient() + "</a></p>" +
                 "<p>Текст повідомлення:</p>" +
-                "<p><pre>" + coderService.encoderUtf8ToWindows1251(message.getMessage()) + "</pre></p>" +
+                "<p><pre>" + message.getMessage() + "</pre></p>" +
                 "</div>" +
                 "<p>Приємного дня!!!</p>" +
                 "</body></html>";
@@ -195,9 +195,9 @@ public class EmailServiceImpl implements EmailService {
                 "<body>" +
                 "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                 "<p>Вами було проведено зміну поштової адреси адміністратора:<br>" +
-                coderService.encoderUtf8ToWindows1251(customUser.getEmailNew()) +
-                "<br><br>Для того щоб зміни вступили в силу необхідно активувати натиснувши на посилання знизу чи скопіювати її в браузер:</p>" +
-                "<p>Посилання для активування: <a href='success-site.inf.ua/active_email?email=" + coderService.encoderUtf8ToWindows1251(customUser.getEmailNew()) + "'>success-site.inf.ua/active_email?email=" + coderService.encoderUtf8ToWindows1251(customUser.getEmailNew()) + "</a></p>" +
+                customUser.getEmailNew() +
+                "<br><br>Для того, щоб зміни вступили в силу, необхідно активувати, натиснувши на посилання знизу чи скопіювавши його в браузер:</p>" +
+                "<p>Посилання для активування: <a href='success-site.inf.ua/active_email?email=" + customUser.getEmailNew() + "'>success-site.inf.ua/active_email?email=" + customUser.getEmailNew() + "</a></p>" +
                 "</body></html>";
         send(customUser.getEmailNew(), subject, textEmail);
     }
@@ -211,7 +211,7 @@ public class EmailServiceImpl implements EmailService {
                 "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
                 "<p>Вами було проведено зміну паролю адміністратора.<br><br>" +
                 "Новий пароль: <b>" +
-                coderService.encoderUtf8ToWindows1251(passwordNew) +
+                passwordNew +
                 "</b></p></body></html>";
         send(customUser.getEmail(), subject, textEmail);
     }
@@ -232,8 +232,8 @@ public class EmailServiceImpl implements EmailService {
         try {
             msg.setFrom(new InternetAddress(emailSite));
             msg.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
-            msg.setSubject(coderService.encoderWindows1251ToUtf8(subject), "utf-8");
-            msg.setContent(coderService.encoderWindows1251ToUtf8(body), "text/html; charset=utf-8");
+            msg.setSubject(subject, "utf-8");
+            msg.setContent(body, "text/html; charset=utf-8");
             Transport.send(msg);
         } catch (MessagingException e) {
             e.printStackTrace();
