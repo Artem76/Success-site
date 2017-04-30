@@ -3,6 +3,7 @@ package app.service.email;
 import app.entity.CustomUser;
 import app.entity.Mess;
 import app.service.coder.CoderService;
+import app.service.visit.VisitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -16,7 +17,7 @@ import java.util.*;
 @Service
 public class EmailServiceImpl implements EmailService {
     @Autowired
-    CoderService coderService;
+    VisitService visitService;
 
     @Value("${host}")
     private String host;
@@ -212,6 +213,23 @@ public class EmailServiceImpl implements EmailService {
                 "<p>Вами було проведено зміну паролю адміністратора.<br><br>" +
                 "Новий пароль: <b>" +
                 passwordNew +
+                "</b></p></body></html>";
+        send(customUser.getEmail(), subject, textEmail);
+    }
+
+    @Override
+    public void emailReport(CustomUser customUser) {
+        String subject = "Щоденний звіт.";
+        String textEmail = "<html lang='uk'><html>" +
+                "<head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/></head>" +
+                "<body>" +
+                "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
+                "<p>Сайт функціонує.<br><br>" +
+                "Кількість відвідань за останню добу: <b>" +
+                visitService.getVisitsForTheDay() +
+                "</b><br>" +
+                "Кількість відвідань за останній тиждень: <b>" +
+                visitService.getVisitsForTheWeek() +
                 "</b></p></body></html>";
         send(customUser.getEmail(), subject, textEmail);
     }

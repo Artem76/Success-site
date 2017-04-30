@@ -9,4 +9,5 @@ public interface EmailService {
     void emailAdminMessage(CustomUser customUser, Mess message);
     void emailAdminEmailNew(CustomUser customUser);
     void emailPasswordNew(CustomUser customUser, String passwordNew);
+    void emailReport(CustomUser customUser);
 }

@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <name>Success-site</name>
-    <url>https://success-site.inf.ua</url>
+    <url>http://success-site.inf.ua</url>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -67,8 +67,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div id="visits" class="boxes">
             <h2>Відвідання сайту.</h2>
             <div class="box">
-                <h4>Кількість відвідань за отанню добу: <b>${visits_day}</b></h4>
-                <h4>Кількість відвідань за отанній тиждень: <b>${visits_week}</b></h4>
+                <h4>Кількість відвідань за останню добу: <b>${visits_day}</b></h4>
+                <h4>Кількість відвідань за останній тиждень: <b>${visits_week}</b></h4>
             </div>
         </div>
 

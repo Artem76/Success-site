@@ -36,7 +36,6 @@ public class AdminController {
     public String adminShop(Model model) {
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         String login = user.getUsername();
-        visitService.clearVisitByDateLess();
         model.addAttribute("visits_day", visitService.getVisitsForTheDay());
         model.addAttribute("visits_week", visitService.getVisitsForTheWeek());
         model.addAttribute("messages", messService.getMessageAllSort());
@@ -86,6 +85,7 @@ public class AdminController {
         }
         return "active_email";
     }
+
 
     /*@RequestMapping("/admin_update_pas_manager")
     public String adminUpdatePasManager(@RequestParam long id_manager,
