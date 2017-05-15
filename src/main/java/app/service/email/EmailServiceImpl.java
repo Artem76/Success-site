@@ -151,7 +151,7 @@ public class EmailServiceImpl implements EmailService {
                     "<head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/></head>" +
                     "<body>" +
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
-                    "<p>We got a message from you.<br>Our representative will get in touch with you at the earliest possible moment:</p>" +
+                    "<p>We got a message from you.<br>Our representative will get in touch with you at the earliest possible moment.<br><br>The contents of your message follow:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
                     "<p>Your name: " + message.getNameClient() + "</p>" +
                     "<p>Your e-mail: " + message.getEmailClient() + "</p>" +
