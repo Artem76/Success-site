@@ -80,19 +80,19 @@ public class EmailServiceImpl implements EmailService {
                     "</p>" +
                     "</body></html>";
         } else {
-            subject = "EN Автоматический ответ на заказ.";
+            subject = "Automatic reply to your order.";
             textEmail = "<html lang='en'><html>" +
                     "<head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/></head>" +
                     "<body>" +
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
-                    "<p>Мы получили от вас заказ.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего заказа:</p>" +
+                    "<p>We got an order from you.<br>Our representative will get in touch with you at the earliest possible moment.<br><br>The contents of your order follow:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
-                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
-                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
+                    "<p>Your name: " + message.getNameClient() + "</p>" +
+                    "<p>Your e-mail: " + message.getEmailClient() + "</p>" +
+                    "<p>Your phone number: " + message.getPhoneClient() + "</p>" +
+                    "<p>Text of your message:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
-                    "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
+                    "<p><br> Yours sincerely, development team.<br>Our contacts:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
                     "Phone: <a href='tel:+380979468925'>+38 097 946 89 25</a><br>" +
                     "Site: <a href='https://success-site.inf.ua'>success-site.inf.ua</a>" +
@@ -146,19 +146,19 @@ public class EmailServiceImpl implements EmailService {
                     "</p>" +
                     "</body></html>";
         } else {
-            subject = "EN Автоматический ответ на сообщение.";
+            subject = "Automatic reply to your message.";
             textEmail = "<html lang='en'><html>" +
                     "<head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/></head>" +
                     "<body>" +
                     "<a href='success-site.inf.ua' style='text-transform: uppercase; color: #000'><span style='border: 7px solid #00a78e; padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>S</span><b style='padding: 0.3em; font-size: 1.2em; font-weight: bold; text-decoration: none'>  Success-Site</b></a>" +
-                    "<p>Мы получили от вас сообщение.<br>Наш представитель свяжется с вами при ближайшей возможности.<br><br>Ниже приведено содержимое вашего сообщения:</p>" +
+                    "<p>We got a message from you.<br>Our representative will get in touch with you at the earliest possible moment:</p>" +
                     "<div style='border: 1px solid #888; padding: 5px'>" +
-                    "<p>Ваше имя: " + message.getNameClient() + "</p>" +
-                    "<p>Ваша электронная почта: " + message.getEmailClient() + "</p>" +
-                    "<p>Ваш номер телефона: " + message.getPhoneClient() + "</p>" +
-                    "<p>Текст сообщения:</p>" + "<pre>" + message.getMessage() + "</pre>" +
+                    "<p>Your name: " + message.getNameClient() + "</p>" +
+                    "<p>Your e-mail: " + message.getEmailClient() + "</p>" +
+                    "<p>Your phone number: " + message.getPhoneClient() + "</p>" +
+                    "<p>Text of your message:</p>" + "<pre>" + message.getMessage() + "</pre>" +
                     "</div>" +
-                    "<p><br> С уважением, коллектив разработчиков.<br>Наши контакты:<br>" +
+                    "<p><br> Yours sincerely, development team.<br>Our contacts:<br>" +
                     "E-mail: <a href='mailto:artem.khirgii@gmail.com'>artem.khirgii@gmail.com</a><br>" +
                     "Phone: <a href='tel:+380979468925'>+38 097 946 89 25</a><br>" +
                     "Site: <a href='https://success-site.inf.ua'>success-site.inf.ua</a>" +
